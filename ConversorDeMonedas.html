@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Monedas</title>
+    <link rel="stylesheet" href="./ConversorDeMonedas.css">
+</head>
+<body>
+   <div id="cajainicial">
+        <em><h1>CONVERSOR DE MONEDAS </h1></em>
+        <h2>Elaborado por: Chavarria Contreras Leopoldo Misael</h2>
+   </div> 
+   
+    <div class="contenedor">
+        <div id="cont1">
+            <input type="number" placeholder="Ingresa la cantidad de moneda" id="input">
+        </div>
+
+        <div class="de">
+            <label for="seleccionar" id="de">Convertir de: </label>
+            <select name="seleccionar" id="seleccionar1" class="seleccionar">
+                <option value="Peso">Peso Mexicano</option>
+                <option value="Dolar">Dolar</option>
+                <option value="Euro">Euro</option>
+                <option value="Yenes">Yenes</option>
+                <option value="Rupias">Rupias</option>
+            </select>
+        </div>
+       
+
+        <div class="a">
+            <label for="seleccionar" id="label">A: </label>
+            <select name="seleccionar" id="seleccionar2" class="seleccionar">
+                <option value="Peso">Peso Mexicano</option>
+                <option value="Dolar">Dolar</option>
+                <option value="Euro">Euro</option>
+                <option value="Yenes">Yenes</option>
+                <option value="Rupias">Rupias</option>
+            </select>
+        </div>
+
+        <div id="cont4">
+            <button id="calcular">Calcular</button>
+        </div>
+
+        <h1 id="resultado">Resultado: $0.00</h1>
+    </div>
+    <footer id="footer">@Todos los derechos reservados Leopoldo Chavarria Julio 2024</footer>
+
+
+    <script src="./ConversorDeMonedas.js"></script>
+    
+</body>
+</html>

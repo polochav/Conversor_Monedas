@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 214, 255);
+    font-family: Arial;
+}
+#cajainicial{
+    background-color:#b39992;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:#ffffff;
+    text-shadow: 5px 5px 10px black;
+    font-weight: 900;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 900;
+}
+.contenedor{
+    margin-top: 80px ;
+    height: 37rem;
+}
+.contenedor #cont1{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+#cont1 #input{
+    width: 450px;
+    height: 70px;
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: 0px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+#cont1 #input::placeholder {
+    text-align: center;
+    color: rgb(121, 118, 118);
+    font-size: 20px;
+}
+.de{
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 40px;
+}
+.de #de{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.de .seleccionar{
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    color: #545353;
+}
+
+.a{
+    display: flex;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.a #label{
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.a #seleccionar{
+    margin-left: 70px;
+    outline: none;
+    border-radius: 5px;
+    color: #545353;
+}
+#footer{
+    text-align: center;
+    margin-bottom: 30px ;
+}
+#cont4{
+    display: flex;
+    justify-content: center;
+}
+#cont4 #calcular{
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0px solid black;
+    outline: none;
+    font-weight: 200;
+    padding: 10px;
+    color: #3a3939;
+    cursor: pointer;
+}
+#cont4 #calcular:focus {
+    color: rgb(131, 164, 255);
+}
